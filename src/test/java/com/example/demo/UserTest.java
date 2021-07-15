@@ -15,13 +15,13 @@ public class UserTest {
     }
 
     @Test
-    public void whenGetName_ThenSetName(){
+    public void validateUserName(){
         String expected = "Jason";
         String actual = user.getName();
         Assertions.assertEquals(expected,actual);
     }
 
-    @Test public void whenGetMobile_ThenSetMobile() {
+    @Test public void validateUserMobile() {
         String expected = "0912345678";
         String actual = user.getMobile();
         Assertions.assertEquals(expected,actual);
